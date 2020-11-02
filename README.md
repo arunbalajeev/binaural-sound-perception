@@ -3,6 +3,10 @@
 
 This repo contains the code of our [ECCV 2020 paper](https://arxiv.org/pdf/2003.04210.pdf)
 
+## Installation 
+
+* The code is tested with pytorch 1.5 and python 3.7.1
+
 
 ## Training
 
