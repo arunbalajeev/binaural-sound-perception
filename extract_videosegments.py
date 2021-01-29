@@ -8,7 +8,7 @@ from moviepy.editor import VideoFileClip
 ############################### Extract video segments ############################
 
 for sc in range(1,166):
-    fdir="/srv/beegfs02/scratch/language_vision/data/Sound_Event_Prediction/audio/dataset/dataset_public/scene%04d/"%sc
+    fdir="./dataset_public/scene%04d/"%sc
     videonum = int(glob.glob(fdir+"/*cropped.mp4")[0].split('/')[-1].split('_')[1]);
     videofile="VIDEO_"+"%04d"%videonum+"_cropped.mp4"
     save_dir = fdir +"split_videos/"
@@ -24,7 +24,7 @@ for sc in range(1,166):
 import moviepy.editor as mpe
 
 for sc in range(1,166):
-    fdir="/srv/beegfs02/scratch/language_vision/data/Sound_Event_Prediction/audio/dataset/dataset_public/scene%04d/"%sc
+    fdir="./dataset_public/scene%04d/"%sc
     videonum = int(glob.glob(fdir+"/*cropped.mp4")[0].split('/')[-1].split('_')[1]);
     videofile="VIDEO_"+"%04d"%videonum+"_cropped.mp4"
     save_dir = fdir +"split_videoframes/"
