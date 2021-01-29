@@ -7,6 +7,18 @@ This repo contains the code of our [ECCV 2020 paper](https://arxiv.org/pdf/2003.
 
 * The code is tested with pytorch 1.5 and python 3.7.1
 
+## Data
+
+```
+wget http://data.vision.ee.ethz.ch/arunv/binaural_perception/data.zip
+unzip data.zip 
+```
+To extract video segments and corresponding sound time-frequency representations:
+```
+python extract_videosegments.py
+python extract_spectrograms.py
+```
+
 
 ## Training
 
