@@ -56,7 +56,7 @@ def get_rms(tr):
 track=3;    ########### select the track 
 
 for sc in range(1,166):
-    fdir="/srv/beegfs02/scratch/language_vision/data/Sound_Event_Prediction/audio/dataset/dataset_public/scene%04d/"%sc
+    fdir="./dataset_public/scene%04d/"%sc
     print(fdir)
     for g in glob.glob(fdir+"*.WAV"):
         audiofolder = g
