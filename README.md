@@ -36,3 +36,16 @@ c) Semantic and Depth prediction and Spatial sound super-resolution
 ```
 python train_noBG_Paralleltask_depth.py
 ```
+
+## Citation
+
+```
+@inproceedings{vasudevan2020semantic,
+  title={Semantic object prediction and spatial sound super-resolution with binaural sounds},
+  author={Vasudevan, Arun Balajee and Dai, Dengxin and Van Gool, Luc},
+  booktitle={European Conference on Computer Vision},
+  pages={638--655},
+  year={2020},
+  organization={Springer}
+}
+```
