@@ -1,4 +1,8 @@
 """
+Author: Arun Balajee Vasudevan
+Licensed under the CC BY-NC 4.0 license (https://creativecommons.org/licenses/by-nc/4.0/)
+"""
+"""
 Pytorch Optimizer and Scheduler Related Task
 """
 import math
