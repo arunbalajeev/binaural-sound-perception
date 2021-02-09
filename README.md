@@ -3,6 +3,10 @@
 
 This repo contains the code of our [ECCV 2020 paper](https://arxiv.org/pdf/2003.04210.pdf)
 
+## License
+
+This software is released under a creative commons license which allows for personal and research use only. You can view a license summary [here](http://creativecommons.org/licenses/by-nc/4.0/).
+
 ## Installation 
 
 * The code is tested with pytorch 1.5 and python 3.7.1
