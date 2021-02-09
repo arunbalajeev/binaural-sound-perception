@@ -26,24 +26,24 @@ python extract_spectrograms.py
 
 ## Training
 
-a) Semantic prediction and Spatial sound super-resolution
-```
-python train_noBG_Paralleltask.py
-```
-
-b) Depth prediction and Spatial sound super-resolution
-```
-python train_noBG_Paralleltask_depth_noSeman.py
-```
-
-c) Semantic and Depth prediction and Spatial sound super-resolution
+a) Semantic prediction, Depth prediction and Spatial sound super-resolution
 ```
 python train_noBG_Paralleltask_depth.py
 ```
 
+b) Depth prediction and Spatial sound super-resolution
+```
+python scripts/train_noBG_Paralleltask_depth_noSeman.py
+```
+
+c) Semantic prediction and Spatial sound super-resolution
+```
+python scripts/train_noBG_Paralleltask.py
+```
+
 
 ## Acknowledgement
-This work was supported by Toyota, and was carried out at the TRACE Lab at ETH Zurich (Toyota Research on Automated Cars in Europe - Zurich)
+This work is funded by Toyota Motor Europe via the research project TRACE (Toyota Research on Automated Cars in Europe) Zurich and was carried out at the CV Lab at ETH Zurich.
 Our codes include adapted version from the external repository of NVIDIA:
 
 - Semantic Segmentation: <https://github.com/NVIDIA/semantic-segmentation> The associated license is [here](https://github.com/NVIDIA/semantic-segmentation/blob/main/LICENSE).
