@@ -41,6 +41,14 @@ c) Semantic and Depth prediction and Spatial sound super-resolution
 python train_noBG_Paralleltask_depth.py
 ```
 
+
+## Acknowledgement
+This work was supported by Toyota, and was carried out at the TRACE Lab at ETH Zurich (Toyota Research on Automated Cars in Europe - Zurich)
+Our codes include adapted version from the external repository of NVIDIA:
+
+- Semantic Segmentation: <https://github.com/NVIDIA/semantic-segmentation> The associated license is [here](https://github.com/NVIDIA/semantic-segmentation/blob/main/LICENSE).
+
+
 ## Citation
 
 ```
