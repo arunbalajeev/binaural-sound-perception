@@ -178,7 +178,7 @@ def make_dataset(quality, mode,  fine_coarse_mult=6, cv_split=0):
     gtCoarse/gtCoarse/train_extra/augsburg
     """
     items = []
-    audioDict=np.load('/'.join(root.split('/')[:-2])+"/SoundEnergy_60scenes.npy");#print(audioDict)
+    audioDict=np.load('/'.join(root.split('/')[:-2])+"/SoundEnergy_array_165scenes.npy");#print(audioDict)
     assert (quality == 'semantic' and mode in ['train', 'val'])
     if mode == 'train':
         for sc in range(1,115):
