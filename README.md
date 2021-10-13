@@ -17,6 +17,8 @@ This software is released under a creative commons license which allows for pers
 wget http://data.vision.ee.ethz.ch/arunv/binaural_perception/data.zip
 unzip data.zip 
 ```
+Note: Audio track 3 (LAB-T***.WAV/LAB-T***_Tr3.WAV) and Audio track 4 (LAB-T***.WAV/LAB-T***_Tr4.WAV) of scenes from 1 to 27 are missing in the dataset. This is due to the manual error while recording the initial 27 videos of the dataset.
+
 To extract video segments and corresponding sound time-frequency representations:
 ```
 python extract_videosegments.py
